@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Clean-Workspace') {
                 steps {
-                CleanWs()
+                cleanWs()
             }
         }
         stage('Ckeckout from SCM') {
